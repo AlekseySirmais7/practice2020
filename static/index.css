@@ -1,0 +1,69 @@
+
+.regAndLogForms {
+    margin: auto;
+    margin-top: 130px;
+}
+
+.linkToAnotherForm {
+    cursor: pointer
+
+}
+
+.postSection {
+    margin-top: 100px;
+}
+.onePost {
+    margin-top: 50px;
+}
+
+.modalWindowCreatePost {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #000000;
+    /*height: 50%;
+    max-width: 50%;
+    min-height: 50%;
+     */
+    height: 320px;
+    background: white;
+    top: 10%;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    margin: 130px auto;
+    z-index: 2; /* поверх всех */
+    display: none;  /* сначала невидим */
+    position: fixed; /* фиксированное позиционирование, окно стабильно при прокрутке */
+    padding: 15px;
+    text-align: center;
+}
+
+#shadow {
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index:1; /* поверх всех  кроме окна*/
+    background: #000000;
+    opacity: 0.6; /* прозрачность */
+    left:0;
+    top:0;
+}
+
+
+.closeImgInModal {
+    display: inline;
+    width: 40px;
+    vertical-align: top;
+    margin-top: 0px;
+    float:right;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#createPostBtn {
+    /*
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    */
+}
